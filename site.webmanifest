@@ -1,0 +1,9 @@
+{
+  "name": "Арт Кино-Терапия",
+  "short_name": "Арт Кино",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#0b0a08",
+  "theme_color": "#0b0a08",
+  "lang": "ru"
+}
