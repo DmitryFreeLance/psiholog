@@ -901,12 +901,19 @@ h3 {
   }
 
   .hero-picture img {
-    object-position: 56% top;
+    object-fit: contain;
+    object-position: center top;
+  }
+
+  .hero-picture {
+    bottom: auto;
+    height: 21rem;
+    background: #0b0a08;
   }
 
   .hero-overlay {
     background:
-      linear-gradient(180deg, rgba(11, 10, 8, 0.04) 0%, rgba(11, 10, 8, 0.62) 32%, rgba(11, 10, 8, 0.97) 66%, rgba(11, 10, 8, 0.99) 100%),
+      linear-gradient(180deg, rgba(11, 10, 8, 0.06) 0%, rgba(11, 10, 8, 0.34) 28%, rgba(11, 10, 8, 0.97) 51%, rgba(11, 10, 8, 0.99) 100%),
       linear-gradient(90deg, rgba(11, 10, 8, 0.62), rgba(11, 10, 8, 0.14), rgba(11, 10, 8, 0.52));
   }
 
