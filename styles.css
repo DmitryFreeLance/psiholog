@@ -401,8 +401,8 @@ h3 {
 }
 
 .direction-grid article {
-  min-height: 17rem;
-  padding: clamp(1.25rem, 2.4vw, 1.8rem);
+  min-height: 0;
+  padding: clamp(1.1rem, 2vw, 1.45rem);
   border: 1px solid var(--line);
   background:
     linear-gradient(180deg, rgba(24, 19, 15, 0.96), rgba(11, 10, 8, 0.96)),
@@ -411,7 +411,7 @@ h3 {
 }
 
 .direction-grid p {
-  margin-top: 1rem;
+  margin-top: 0.75rem;
   font-size: 0.98rem;
 }
 
